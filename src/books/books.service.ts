@@ -19,7 +19,7 @@ export class BooksService {
   }
 
   updateBook(bookId: string, newBookData: any){
-    return `Estás haciendo una operación de actualización del recurso ${bookId} 
+    return `updated book: ${bookId} 
           con ${newBookData}`
   }
 
@@ -27,3 +27,5 @@ export class BooksService {
     return `deleted with bookId:${bookId}`;
   }
 }
+
+aa
